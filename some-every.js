@@ -50,9 +50,7 @@ Examples:
 */
 
 function hasNoDuplicates(arr) {
-    console.log("ffffffffffffff");
     return arr.every(function(num){
-        console.log(arr.indexOf(num));
         return arr.indexOf(num) === arr.lastIndexOf(num);
     })
 }
